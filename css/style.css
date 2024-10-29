@@ -28,19 +28,19 @@ p {
     padding: 20px;
     position: relative;
     color: white;
-    flex: 1; /* Default for flexbox layout */
+    flex: 1; 
 }
 
 .chicken {
-    background-color: #FFD700; /* Gold */
+    background-color: #FFD700; 
 }
 
 .beef {
-    background-color: #CD5C5C; /* Indian Red */
+    background-color: #CD5C5C; 
 }
 
 .sushi {
-    background-color: #5F9EA0; /* Cadet Blue */
+    background-color: #5F9EA0; 
 }
 
 .title {
@@ -55,15 +55,15 @@ p {
 /* Media Queries */
 @media (max-width: 991px) {
     .chicken, .beef {
-        flex: 1 1 48%; /* First two sections on the first row */
+        flex: 1 1 48%; 
     }
     .sushi {
-        flex: 1 1 100%; /* Third section on second row */
+        flex: 1 1 100%; 
     }
 }
 
 @media (max-width: 767px) {
     .section {
-        flex: 1 1 100%; /* Full width for all sections */
+        flex: 1 1 100%;
     }
 }
